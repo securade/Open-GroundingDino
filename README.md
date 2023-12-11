@@ -240,3 +240,8 @@ Provided codes were adapted from:
 - liwei1 at sensetime.com  
 
 Feel free to contact we if you have any suggestions or questions. Bugs found are also welcome. Please create a pull request if you find any bugs or want to contribute code.
+
+
+```
+python main.py -c config/cfg_coco.py --datasets config/datasets_od.json --pretrain_model_path gdinot-1.8m-odvg.pth --options text_encoder_type=bert-base-uncased/ --output_dir output3
+```
